@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/ng5/src/arolland/svn/platform/cloudview-core/trunk/com/exalead/mercury/mami/master/v10'
+let g:netrw_dirhist_2='/ng5/src/arolland/svn/platform/cloudview-core/trunk/com/exalead/mercury/mami/util'
+let g:netrw_dirhist_3='/ng5/src/arolland/svn/platform/cloudview-core/trunk/com/exalead/mercury/mami'
