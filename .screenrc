@@ -1,0 +1,12 @@
+hardstatus alwayslastline
+hardstatus  string '%{= bG}%-Lw%{= KW}%50>%n%f* %t%{= bG}%+Lw%< %{=  G}%-=%D %d %M %Y %c:%s%{-}'
+#			01         23                 45            67
+# 0: couleur du fond des screens precedants l'actif
+# 1: couleur du nom des screens precedants l'actif
+# 2: couleur du fond du screen actif
+# 3: couleur du nom du screen actif
+# 4: couleur du fond des screens suivant l'actif
+# 5: couleur du nom des screens suivant l'actif
+# 6: couleur du fond de la date (laisser vide pour ne pas la changer)
+# 7: couleur de la date
+#
