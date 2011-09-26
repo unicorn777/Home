@@ -5,7 +5,7 @@
 ## Login   <rollan_a@epitech.net>
 ## 
 ## Started on  Tue May  6 09:27:12 2008 alexis rolland
-## Last update Mon 19 Sep 2011 03:48:05 PM CEST arolland
+## Last update Mon 26 Sep 2011 05:13:07 PM CEST unicorn
 ##
 
 ulimit -c 0
@@ -26,7 +26,6 @@ export PAGER="less"
 export EDITOR="vim"
 export MAIL="/home/$USER/mail/$USER"
 export WATCH="all"
-export MYVAR="OK"
 
 # Je veux mes scollbar !
 export LIBOVERLAY_SCROLLBAR=0
@@ -44,7 +43,7 @@ CL_CYAN='%{[0;36m%}'
 B_CYAN='%{[1;36m%}'
 B_GREY='%{[1;30m%}'
 RPROMPT="[${CL_RED}%~${CL_NORMAL}]"
-PROMPT="${CL_GOLD}%n${B_GREY}@${CL_CYAN}%m${CL_NORMAL}>%# "
+PROMPT="${CL_GOLD}%n${B_GREY}@${CL_GOLD}%m${CL_NORMAL}>%# "
 
 
 export NORMAL='[0m'
