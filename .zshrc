@@ -5,7 +5,7 @@
 ## Login   <rollan_a@epitech.net>
 ## 
 ## Started on  Tue May  6 09:27:12 2008 alexis rolland
-## Last update Mon 26 Sep 2011 05:13:07 PM CEST unicorn
+## Last update Tue 27 Sep 2011 10:38:00 AM CEST unicorn
 ##
 
 ulimit -c 0
@@ -26,6 +26,7 @@ export PAGER="less"
 export EDITOR="vim"
 export MAIL="/home/$USER/mail/$USER"
 export WATCH="all"
+export MYVAR="OK"
 
 # Je veux mes scollbar !
 export LIBOVERLAY_SCROLLBAR=0
@@ -65,6 +66,7 @@ fi
 
 alias grep="grep --color --exclude-dir=.svn --exclude='*.swp'"
 alias egrep="egrep --color --exclude-dir=.svn --exclude='*.swp'"
+alias svn="svn --no-auth-cache"
 alias xxx="egrep -rn 'XXX|TODO|FIXME|//.*DEBUG' *"
 alias l="ls -lh"
 alias ll="l"
